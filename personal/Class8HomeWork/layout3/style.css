@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif, 'Courier New', Courier, monospace;
+  color: #45525c;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+body {
+  font-size: 62.5%;
+  color: #45525c;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/*******************
+  HEADER
+*******************/
+
+.header {
+  background: url('./background_images/brooke-lark-08bOYnH_r_E-unsplash.jpg');
+  padding: 2vh 4vw 5vh 4vw;
+  width: 100vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/****************
+  nav
+****************/
+.header {
+  padding-bottom: 30vh;
+}
+.header ul * {
+  float: left;
+  width: 4vw;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.header ul {
+  margin-left: 60vw;
+}
+
+/****************
+  section
+****************/
+
+.header_section {
+  width: 40vw;
+  margin-top: 15vh;
+}
+
+h1,
+h2 {
+  text-transform: capitalize;
+  font-size: 4rem;
+  font-family: 'Libre Baskerville';
+  width: 65%;
+  word-spacing: 1rem;
+}
+.header_section form input {
+  border: none;
+  color: #fff;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  width: 70%;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+}
+
+.header_section .form button {
+  background-color: rgb(252, 160, 1);
+  border: none;
+  padding: 0.4rem;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  right: 12vw;
+  color: #fff;
+  border-radius: 0.2rem;
+}
+
+.header_section .form {
+  position: relative;
+  margin-top: 4vh;
+}
+
+.social_links * {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.social_links section {
+  margin-right: 3rem;
+}
+
+.social_links i {
+  color: rgb(249, 162, 0);
+}
+
+.social_links {
+  margin-top: 5vh;
+}
+
+/*******************
+about_us_section
+*******************/
+
+.about_us_section {
+  background-image: url('./background_images/hermes-rivera-Ww8eQWjMJWk-unsplash.jpg');
+  padding: 15vh 0 18vw 20vw  ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about_us_section * {
+  width: 40vw;
+}

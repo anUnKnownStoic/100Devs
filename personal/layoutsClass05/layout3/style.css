@@ -1,0 +1,23 @@
+* {
+  background-color: rgb(234, 125, 234);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+footer,
+header {
+  height: 15em;
+  clear: both;
+}
+section {
+  border: 3px solid orangered;
+  height: 15em;
+  margin: 1px;
+}
+.secondRow {
+  float: left;
+  width: 66.6666%;
+}
+.one {
+  width: 33%;
+}

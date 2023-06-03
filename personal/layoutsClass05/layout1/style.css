@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  background-color: cadetblue;
+  margin: 0;
+  padding: 0;
+}
+header,
+footer {
+  border: 1px solid red;
+  clear: both;
+  height: 20em;
+}
+
+section {
+  border: 4px solid burlywood;
+  float: left;
+  height: 15em;
+  width: 33.3333%;
+}
+
+.secondRow {
+  width: 50%;
+}
+
+@media all and (max-width:800px) {
+  section {
+    border: 0.1em solid green;
+  }
+}

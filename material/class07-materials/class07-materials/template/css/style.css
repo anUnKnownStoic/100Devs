@@ -1,0 +1,49 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header,
+footer {
+  height: 10em;
+  background-image: radial-gradient( black 55%,rgb(103, 190, 190) 45%);
+  clear: both;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+section {
+  background: radial-gradient(blue, yellow);
+  border: 6px solid red;
+  height: 41;
+  float: left;
+  width: 20em;
+}
+section:nth-of-type(2) {
+  width: 45em;
+}

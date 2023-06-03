@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Please make the li's blue, underlined, 15px, and have a gray background --> */
+
+li {
+  color: blue;
+  background-color: gray;
+  font-size: 15px;
+  text-decoration: underline;
+}
+/* Please make this section have a height of 300px, a light purple background, a gold border, and use the Source Sans Pro Font  that is 5px thick */
+section {
+  background-color: rgb(183, 6, 183);
+  border: 5px solid gold;
+  font-family: 'Source Sans Pro', sans-serif;
+  height: 300px;
+  text-align: center;
+}
+
+/* Please make this footer have a dark brown background, 300px in height, and only 70% width. */
+
+footer {
+  background-color: rgb(113, 6, 6);
+  height: 300px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+h2 {
+  text-decoration: line-through;
+}

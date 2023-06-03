@@ -1,0 +1,32 @@
+/* Mine */
+
+* {
+  background-color: aqua;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  border: 1px solid red;
+  height: 100px;
+}
+section {
+  border: 3px solid red;
+}
+
+/* solution */
+header,
+footer {
+  border: 3px solid red;
+  clear: both;
+  height: 33.3333%;
+}
+
+section {
+  border: 1px solid red;
+  height: 300px;
+  float: left;
+  width: 33.3333%;
+}

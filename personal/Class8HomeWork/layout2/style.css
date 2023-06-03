@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', Arial, sans-serif, 'Courier New', Courier,
+    monospace;
+  color: #45525c;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+body {
+  font-size: 62.5%;
+  background-color: #f5f9fc;
+  color: #45525c;
+}
+
+a{
+  text-decoration: none;
+}
+/******************
+ MAIN
+******************/
+main * {
+  font-weight: 900;
+}
+/***************
+   HEADER
+***************/
+header {
+  position: relative;
+  height: 5vh;
+  padding: 0 2vw;
+}
+header > * {
+  float: left;
+  margin: 2vh 0;
+}
+
+header > nav ul {
+  width: 65vw;
+  margin: 0 10vw 0 9vw;
+  height: 3vh;
+  padding: 0 15vw;
+  list-style: none;
+}
+
+header > nav ul li {
+  float: left;
+  margin: 0 2vw;
+  font-size: 0.8rem;
+}
+
+ button {
+  font-size: 1.3em;
+  padding: 0.5vh 1vw;
+  color: aliceblue;
+  background-color: #45525c;
+}
+
+header h2 {
+  font-size: 1.5vw;
+}
+
+/***************
+   H1 section
+***************/
+.mainContentSection {
+ margin-top: 10vh;
+}
+
+.mainContent span {
+  text-transform: uppercase;
+  color: rgba(69, 82, 92,0.6);
+}
+
+.mainContent {
+  float: left;
+  margin: 3vh 0 3vh 5vw;
+}
+.mainContentSection section:nth-child(1) {
+  width: 22vw;
+  margin: 2vh 19vw 0 6vw ;
+}
+
+.mainContent input{
+  display: inline-block;
+  background-color: #efefef;
+  border: none;
+  padding: 1vh 1vw;
+  width: 60%;
+  color: rgba(69, 82, 92,0.8);
+}
+
+h1 {
+  font-size: 2vw;
+  margin: 3vh 0;
+}
+
+.mainContent p{
+  line-height: 150%;
+  font-size: larger;
+  word-spacing: 0.4rem;
+  color: rgba(69, 82, 92,0.8);
+}
+
+.mainContent img{
+  width:46vw;
+  
+}
+
+/***************
+   featureSection
+***************/
+
+.featureSection{
+  margin: 3vh 13vw 5vh 13vw  ;
+  height:10vh;
+}
+
+.feature{
+  float: left;
+  line-height: 1rem;
+  width: 14vw;
+  margin: 1vh 1vw;
+}
+
+.feature *{
+  margin: 1vh 0;
+  font-size: 1vw;
+}
+
+.feature p {
+  font-size: 0.8vw;
+  color: rgba(69, 82, 92,0.7);
+}
+
